@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<body>
+    {{ partial "sidebar.html" . }}
+    <div class="content container">
+        <h1>//2014</h1>
+        {{ range first 10 (where .Data.Pages "Section" "2014") }}
+            {{ .Render "summary" }}
+        {{ end }}
+    </div>
+    {{ partial "analytics.html" . }}
+</body>
+</html>

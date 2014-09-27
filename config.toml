@@ -1,0 +1,24 @@
+baseurl = "http://www.leon.nu"
+languageCode = "en-us"
+title = "Linux Junky"
+disqusShortname = "leonnu"
+
+[[menu.main]]
+    name = "Talks"
+    url = "/talks/"
+    weight = 1
+[[menu.main]]
+    name = "Photos"
+    url = "http://500px.com/leonro"
+    weight = 3
+[[menu.main]]
+    name = "Github"
+    url = "https://github.com/rleon/"
+    weight = 2
+[[menu.main]]
+    name = "About"
+    url = "http://il.linkedin.com/in/leonro"
+    weight = 4
+[params]
+    Description = "deep web"
+    Copyright = "Copyright (c) 2013 - 2014, Leon Romanovsky; all rights reserved."
