@@ -1,7 +1,6 @@
 baseurl = "http://www.leon.nu"
 languageCode = "en-us"
 title = "Linux Junky"
-disqusShortname = "leonnu"
 
 [[menu.main]]
     name = "Talks"
